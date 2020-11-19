@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+        text-align: center;
+        padding-top: 15%;
+        line-height: 70px;
+        background-repeat: no-repeat;
+    }
+    input{
+      font-size: x-large;
+    }
+    #sub{
+      font-size: xx-large;
+      margin-top: 5%;
+      padding:1%;
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body background="back.png">
+  <form id="creatorform" action="register.php" method="POST">
+    <input name="email" id="email" type="email" placeholder="Enter Email" required><br>
+    <input name="password" id="password" type="password" placeholder="Enter Password" required><br>
+    <input name="retypepassword" id="retypepassword" type="password" placeholder="Retype Password" required><br>
+    <input type="submit" id="sub" value="REGISTER">
+  </form>
+
+  <script src="home.js"></script>
+</body>
+</html>
